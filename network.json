@@ -30,12 +30,17 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "yatish2",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot5837.png"
         }
     ],
-    "updated_at": "2018-09-26 13:08:22",
+    "updated_at": "2018-09-26 16:59:36",
     "url": "https://github.com/fall2018-saltz-test/test"
 }
