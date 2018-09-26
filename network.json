@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "img",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot5837.png"
         }
     ],
     "nodes": [
@@ -41,6 +51,6 @@
             "name": "plot5837.png"
         }
     ],
-    "updated_at": "2018-09-26 16:59:36",
+    "updated_at": "2018-09-26 16:59:43",
     "url": "https://github.com/fall2018-saltz-test/test"
 }
