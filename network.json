@@ -1,6 +1,7 @@
 {
     "collaborators": [
-        "yatish2"
+        "yatish2",
+        "test"
     ],
     "created_at": "2018-09-26 13:08:22",
     "edges": [
@@ -49,8 +50,12 @@
         },
         {
             "name": "plot5837.png"
+        },
+        {
+            "desc": "",
+            "name": "script1182.R"
         }
     ],
-    "updated_at": "2018-09-26 16:59:43",
+    "updated_at": "2018-10-09 18:57:27",
     "url": "https://github.com/fall2018-saltz-test/test"
 }
