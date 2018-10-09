@@ -1,0 +1,56 @@
+{
+    "collaborators": [
+        "yatish2"
+    ],
+    "created_at": "2018-09-26 13:08:22",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "img",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot5837.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "yatish2",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot5837.png"
+        }
+    ],
+    "updated_at": "2018-09-26 16:59:43",
+    "url": "https://github.com/fall2018-saltz-test/test"
+}
